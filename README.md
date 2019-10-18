@@ -1,4 +1,4 @@
-# SimpleLoggerWW  
+# SimpleLoggerW  
 ![npm bundle size](https://img.shields.io/bundlephobia/min/simpleloggerw) ![Travis (.org)](https://img.shields.io/travis/wisnoi/SimpleLoggerW) ![NPM](https://img.shields.io/npm/l/simpleloggerw)  
 
 A simple, no-dependency logger for Node.js
