@@ -46,8 +46,8 @@ Logger.debug('Debug test!');
   
 Examples:
 ```js
-const SmartLogger = require('@wisnoi/SmartLogger');
-const Logger = new SmartLogger();
+const SimpleLoggerW = require('simpleloggerw');
+const Logger = new SimpleLoggerW();
 
 Logger.setForegroundColor(Logger.severity.fatal, Logger.colors.foreground.green);
 Logger.fatal('test'); // Outputs a fatal error string with green text.
