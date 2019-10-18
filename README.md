@@ -1,4 +1,5 @@
-# SimpleLogger
+# SimpleLoggerWW  
+![](https://img.shields.io/bundlephobia/min/SimpleLoggerW) ![Travis (.org)](https://img.shields.io/travis/wisnoi/SimpleLoggerW) ![NPM](https://img.shields.io/npm/l/SimpleLoggerW)
 A simple, no-dependency logger for Node.js
 
 ## Why?
@@ -15,7 +16,7 @@ Why not?
 
 ## Quickstart
 ```js
-const Logger = new SimpleLogger('./test.log');
+const Logger = new SimpleLoggerW('./test.log');
 Logger.fatal('Fatal test!');
 Logger.critical('Critical test!');
 Logger.warning('Warning test!');
@@ -49,7 +50,7 @@ Logger.fatal('test'); // Outputs a fatal error string with green text.
 ```
 ## Structures
 
-Every instance of SimpleLogger comes with an object containing a list of foreground colors, background colors, and text attributes.  
+Every instance of SimpleLoggerW comes with an object containing a list of foreground colors, background colors, and text attributes.  
 This object is instantiated at Logger.colors.
  
 ```js

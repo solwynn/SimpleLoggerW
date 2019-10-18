@@ -4,14 +4,14 @@
 const assert = require('assert');
 const fs = require('fs');
 
-const SimpleLogger = require('../lib/SimpleLogger');
+const SimpleLoggerW = require('../lib/SimpleLoggerW');
 
 if (!fs.existsSync('./testtarget/')) {
     fs.mkdirSync('./testtarget/');
 }
 
-describe('SimpleLogger', function() {
-    const Logger = new SimpleLogger('./testtarget/test.log');
+describe('SimpleLoggerW', function() {
+    const Logger = new SimpleLoggerW('./testtarget/test.log');
 
     describe('_out()', function() {
         Logger.debug('Hi, tester!');
@@ -20,7 +20,7 @@ describe('SimpleLogger', function() {
         });
 
         it('Should throw if given a file path into a directory that doesn\'t exist', function() {
-            const dirTestLogger = new SimpleLogger('./testdir/file.log');
+            const dirTestLogger = new SimpleLoggerW('./testdir/file.log');
 
             assert.throws(() => {
                 dirTestLogger._out('aa', Logger.severity.fatal);

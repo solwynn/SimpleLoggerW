@@ -1,8 +1,8 @@
 {
-  "name": "@wisnoi/simplelogger",
+  "name": "simpleloggerw",
   "version": "1.0.0",
   "description": "A simple, easy-to-use, compact logger for Node.js",
-  "main": "./lib/SimpleLogger.js",
+  "main": "./lib/SimpleLoggerW.js",
   "directories": {
     "lib": "lib"
   },
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wisnoi/SimpleLogger.git"
+    "url": "git+https://github.com/wisnoi/SimpleLoggerW.git"
   },
   "author": "wisnoi",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wisnoi/SimpleLogger/issues"
+    "url": "https://github.com/wisnoi/SimpleLoggerW/issues"
   },
-  "homepage": "https://github.com/wisnoi/SimpleLogger#readme",
+  "homepage": "https://github.com/wisnoi/SimpleLoggerW#readme",
   "devDependencies": {
     "eslint": "^6.5.1",
     "mocha": "^6.2.1"
