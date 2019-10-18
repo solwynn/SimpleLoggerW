@@ -16,6 +16,8 @@ Why not?
 * Optional file output
 
 ## Quickstart
+`npm install --save SimpleLoggerW`
+
 ```js
 const Logger = new SimpleLoggerW('./test.log');
 Logger.fatal('Fatal test!');
