@@ -1,6 +1,6 @@
 {
   "name": "simpleloggerw",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple, easy-to-use, compact logger for Node.js",
   "main": "./lib/SimpleLoggerW.js",
   "directories": {
