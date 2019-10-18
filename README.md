@@ -16,9 +16,10 @@ Why not?
 * Optional file output
 
 ## Quickstart
-`npm install --save SimpleLoggerW`
+`npm install --save simpleloggerw`
 
 ```js
+const SimpleLoggerW = require('simpleloggerw');
 const Logger = new SimpleLoggerW('./test.log');
 Logger.fatal('Fatal test!');
 Logger.critical('Critical test!');
