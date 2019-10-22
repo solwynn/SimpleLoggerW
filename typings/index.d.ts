@@ -1,7 +1,7 @@
 // TYPE DEFINITIONS FOR SimpleLoggerW
 // DEFINITIONS BY: wisnoi <https://github.com/wisnoi>
-declare class simpleloggerw {
-    constructor(filepath?: string, consoleOut?: bool);
+declare class SimpleLoggerW {
+    constructor(filepath?: string, consoleOut?: boolean);
 
     filePath: string | null;
     colors: {};
